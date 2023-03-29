@@ -1,0 +1,82 @@
+canvas {
+   background-color:white;
+   margin-top:10px;
+   border-radius: 25px;
+   border-style:dotted dashed solid double;
+   border-width: 5px;
+   animation-name: neon;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes neon{
+    from {
+        box-shadow: 5px 5px 70px purple;
+    }
+
+    to {
+        box-shadow: 5px 5px 70px yellow;
+    }
+
+}
+
+video{
+    border-radius: 10px;
+}
+
+h2 {
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 8px;
+    width: 900px;
+    height: 70px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 60px;
+    color: hotpink;
+    animation-name: head;
+   animation-duration: 10s;
+   animation-iteration-count:initial;
+}
+
+@keyframes head{
+    from {
+        width: 500;
+        font-size: 45px;
+    }
+
+    to {
+        width: 900;
+        font-size: 60px;
+    }
+
+}
+
+#btn1{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    background-color:lavender;
+    margin-top:560px;
+    animation-name: button;
+    animation-duration: 0.80s;
+    animation-iteration-count: infinite;
+}
+
+#btn1:hover{
+    border-style: dashed;
+    border-width: 5px;
+    font-size: 30px;
+}
+
+@keyframes button{
+    from {
+        font-size: 25px;
+        border-style: dashed;
+    }
+
+    to {
+        font-size: 30px;
+        background-color:lemonchiffon;
+        border-style: dashed;
+    }
+}
